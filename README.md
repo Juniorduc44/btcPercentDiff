@@ -9,9 +9,8 @@
         <img src="./documentation_images/CustomTkinter_logo_light.png">
     </picture>
     </p>
-
 <div align="center">
-
+--> [https://github.com/TomSchimansky/CustomTkinter]<--
 
 Get the percent difference in a Bitcoin friendly standard
     
