@@ -1,4 +1,4 @@
-__version__="0.1.0"
+__version__="0.1.1"
 import tkinter
 import customtkinter
 from blockchain import exchangerates as ex
@@ -16,14 +16,14 @@ def button_function():
 
     if a > b:  # if a is greater than b then to get to b your result will be negative.
         cc = f"{c:.8f}"
-        d = c / b
+        d = c / a
         e = d * 100
         ee = f"{e:.2f}"
         label.configure(text=f"Diff: {cc}")
         label2.configure(text=f"% Diff: {ee}")
     elif a < b:
         cc = f"{c:.8f}"
-        d = c / b
+        d = c / a
         e = d * 100
         ee = f"{e:.2f}"
         label.configure(text=f"Diff: {cc}")
