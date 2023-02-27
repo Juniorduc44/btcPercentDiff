@@ -6,7 +6,7 @@ c = b - a
 
 if a > b:  # if a is greater than b then to get to b your result will be negative.
     cc = f"{c:.8f}"
-    d = c / b
+    d = c / a
     e = d * 100
     ee = f"{e:.2f}"
     print(f'''
@@ -21,7 +21,7 @@ if a > b:  # if a is greater than b then to get to b your result will be negativ
 
 elif a < b:
     cc = f"{c:.8f}"
-    d = c / b
+    d = c / a
     e = d * 100
     ee = f"{e:.2f}"
     print(f'''
