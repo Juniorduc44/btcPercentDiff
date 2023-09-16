@@ -1,0 +1,5 @@
+blockchain==1.4.4
+customtkinter==5.2.0
+darkdetect==0.8.0
+enum-compat==0.0.3
+future==0.18.3
