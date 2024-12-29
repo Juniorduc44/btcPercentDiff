@@ -42,7 +42,7 @@ app.title("Bitcoin Percent Difference App")
 
 #creates a frame effect in background
 frame1 = customtkinter.CTkFrame(master = app)
-frame1.pack(pady=10, padx=25, expand=False) #master or placement is the "app" defined
+frame1.pack(pady=15, padx=25, expand=False) #master or placement is the "app" defined
 
 #Bitcoin Price Tracker
 ticker = ex.get_ticker()
