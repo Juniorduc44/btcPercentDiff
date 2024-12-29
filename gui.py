@@ -1,4 +1,4 @@
-__version__="0.1.1"
+__version__="0.1.2"
 import tkinter
 import customtkinter
 from blockchain import exchangerates as ex
@@ -37,7 +37,7 @@ customtkinter.set_appearance_mode("dark")#.set_default_color_theme("green")
 #Themes: blue (default), dark-blue, green
 
 app = customtkinter.CTk() #create CTK window like you do with the Tk window
-app.geometry("400x300")
+app.geometry("400x350")
 app.title("Bitcoin Percent Difference App")
 
 #creates a frame effect in background
